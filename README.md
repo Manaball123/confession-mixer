@@ -25,7 +25,7 @@
 
 ## iv. this thing 
 ...and this is precisely why this software is a thing(could barely call it software but ehhh) 
-this thing pools together confession and only makes it known to both parties only if the feeling is mutual, this alleviates the 3 aforementioned issues: 
+this thing pools together confession and only makes it known to both parties only if the feeling is mutual, thus alleviating the 3 aforementioned issues: 
 1. hurts slightly less when the other person didnt even say the rejection to ur face 
 2. other party is unaware of the confession 
 3. no one is even aware of it except the confessor, if it didnt go through 
