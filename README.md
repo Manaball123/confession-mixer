@@ -34,9 +34,10 @@ the app itself is pretty straightforward so im not even gonna bother explaining 
 
 # II. why it sucks 
 ## i. missed the point 
- even though getting rejected sucks and stuff it will like enrich your life experience, and this one sort of takes that away 
+ even though getting rejected sucks and stuff it will like enrich your life experience, and this thing sort of takes that away 
 ## ii. oversimplification of romance 
- sometimes people arent even aware of the romantic feelings they harbor so they might not even acknowledges it until some person asks them out or something 
+ sometimes people arent even aware of the romantic feelings they harbor so they might not even acknowledges it until some person asks them out or something, theres usually
+ a lot of nuance surrounding this, which can't really be simplified to "do you love A or B"
 ## iii. feels cheap 
  lets be honest here no ones gonna just give up their love interest because computer told them no 
 
@@ -55,8 +56,9 @@ the app itself is pretty straightforward so im not even gonna bother explaining 
 this is like the first time ive written anything in rust please dont flame me 
 ## why rust? 
 can port into web app eventually with webasm(lets be honest thats not happening) 
-also learn fun language, which apparently isnt that fun after all after ive actually learned about it 
-<sup><sub>i have become femboy, consumer of estrogen </sub></sup> 
+also learn fun language, which apparently isnt that fun after all after ive actually learned about it  
+
+<sup><sub>i have become femboy, consumer of estrogen :3</sub></sup> 
 
 # credits 
 [@planetoryd](https://github.com/planetoryd) 4 teaching me how to do shit in rust 
