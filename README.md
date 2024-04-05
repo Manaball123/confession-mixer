@@ -61,5 +61,5 @@ also learn fun language, which apparently isnt that fun after all after ive actu
 <sup><sub>i have become femboy, consumer of estrogen :3</sub></sup> 
 
 # credits 
-[@planetoryd](https://github.com/planetoryd) 4 teaching me how to do shit in rust 
+[@planetoryd](https://github.com/planetoryd) 4 teaching me how to do shit in rust  
 the many romcom animes that i watched that got me to make this dumb shit 
