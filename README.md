@@ -23,7 +23,7 @@
  are present in a friend group and one of them got rejected, then it would be sort of awkward to still be together after this, and the friend group
  would at the very least lose a significant member, assuming it doesn't fall apart entirely. 
 
-
+## iv. this thing 
 ...and this is precisely why this software is a thing(could barely call it software but ehhh) 
 this thing pools together confession and only makes it known to both parties only if the feeling is mutual, this alleviates the 3 aforementioned issues: 
 1. hurts slightly less when the other person didnt even say the rejection to ur face 
@@ -33,12 +33,21 @@ this thing pools together confession and only makes it known to both parties onl
 the app itself is pretty straightforward so im not even gonna bother explaining how to use 
 
 # II. why it sucks 
-## i. missed the point
+## i. missed the point 
  even though getting rejected sucks and stuff it will like enrich your life experience, and this one sort of takes that away 
 ## ii. oversimplification of romance 
  sometimes people arent even aware of the romantic feelings they harbor so they might not even acknowledges it until some person asks them out or something 
 ## iii. feels cheap 
- lets be honest here no ones gonna just give up their love interest because computer told them no
+ lets be honest here no ones gonna just give up their love interest because computer told them no 
+
+# III. todo
+## i. weighted system
+ as of now the selection system is binary, that is, you are only able to select one person that you like, but in reality one might have multiple interests with 
+ diferent attributed weighs to them, which might help one find a partner even if their number 1 choice denies them. However figuring out an algo that is fair 
+ to everyone is kinda hard and idk how to do it
+## ii. webapp 
+ if people are actually gonna use this, they most definitely wont compile a rust app every time they do, so a webapp should probably be made to make this at least
+ somewhat usuable
 
 
 # IV. other stuff 
