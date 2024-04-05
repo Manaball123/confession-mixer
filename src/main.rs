@@ -1,16 +1,29 @@
 mod core;
 use std::collections::HashMap;
+mod utils;
+
+
 
 fn main() {
-    // Statements here are executed when the compiled binary is called.
 
-    // Print text to the console.
+
     let mut inst = core::instance::Instance::new();
-    inst.add_peer("A");
-    inst.add_peer("B");
-    inst.add_peer("C");
-    inst.update_peer("A", &HashMap::from([("B".to_owned(), 1)]));
-    inst.update_peer("B", &HashMap::from([("A".to_owned(), 1)]));
-    inst.update_peer("C", &HashMap::from([("B".to_owned(), 1)]));
+    println!("Enter number of peers: ");
+    let n_peers : i32 = utils::get_input().trim().parse::<i32>().expect("Invalid input");
+    for i in 0..n_peers {
+        println!("Enter name of peer number {0}", i + 1);
+        
+        inst.add_peer(utils::get_input().trim());
+    }
+    for (peer_name, peer_instance) in inst.peers.iter_mut(){
+        utils::cls();
+        println!("{0}, enter the name of ur love interest or \"none\" if u dont have any(imagine)", &peer_name);
+        let input = utils::get_input();
+        if input.trim() == "none"{
+            continue;
+        }
+        peer_instance.set_opinions(&HashMap::from([(input.trim().to_owned(), 1)]))
+    }
+
     println!("{:?}", inst.get_optimal_pairs())
 }

@@ -21,6 +21,12 @@ impl Peer{
         //todo: figure out how to pass a ref for lookup
         *self.opinions.entry(name.to_owned()).or_insert(val) = val;
     }
+    pub fn set_opinions(&mut self, opinions : &OpinionsMap) -> () {
+        for (opn_name, opn_value) in opinions.into_iter(){
+            self.set_opinion(opn_name, *opn_value);
+        }
+
+    }
     pub fn get_opinion(&self, name : &str) -> i32 {
 
         if !self.opinions.contains_key(name){

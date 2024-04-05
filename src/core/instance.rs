@@ -6,7 +6,7 @@ use super::peer::*;
 type ResultVec = Vec<(String, String)>;
 
 pub struct Instance {
-    peers : HashMap<String, Peer>
+    pub peers : HashMap<String, Peer>
 }
 
 impl Instance {
@@ -25,10 +25,7 @@ impl Instance {
         }
         //or insert should never be invoked, i just dont know how to fix
         let cur_peer = self.peers.get_mut(name).unwrap();
-        for (opn_name, opn_value) in opinions.into_iter(){
-            cur_peer.set_opinion(opn_name, *opn_value);
-        }
-
+        cur_peer.set_opinions(opinions);
     }
 
     pub fn get_optimal_pairs(&self) -> ResultVec{
